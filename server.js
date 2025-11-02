@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 3000;
 // Connexion à MongoDB
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/retours', { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => console.log('Connecté à MongoDB'))
-    .catch(err => console.error('Erreur de connexion à MongoDB:', err));
+    .catch(err => console.error('Erreur de connexion à MongoDB :', err));
 
 app.use(express.json());
 app.use('/api/feedback', feedbackRoutes);
