@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get('/', (req, res) => {
-    res.send('Welcome to the User Returns application!');
+    res.send('Welcome to the User Returns Management Application!');
 });
 
 app.listen(PORT, () => {
