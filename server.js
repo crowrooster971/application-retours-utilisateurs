@@ -14,5 +14,5 @@ app.use(express.json());
 app.use('/api/feedback', feedbackRoutes);
 
 app.listen(PORT, () => {
-    console.log(`Serveur en cours d\'exécution sur le port ${PORT}`);
+    console.log(`Serveur en cours d'exécution sur le port ${PORT}`);
 });
