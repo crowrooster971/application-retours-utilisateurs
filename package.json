@@ -12,6 +12,6 @@
     "mongoose": "^5.10.9",
     "cors": "^2.8.5"
   },
-  "author": "Votre Nom",
+  "author": "John Doe",
   "license": "MIT"
 }
