@@ -8,9 +8,9 @@ app.use(cors());
 app.use(express.json());
 
 app.get('/', (req, res) => {
-    res.send('Bienvenue sur l'application Retours Utilisateurs!');
+    res.send('Bienvenue sur l\'application Retours Utilisateurs!');
 });
 
 app.listen(PORT, () => {
-    console.log(`Serveur en cours d'exécution sur le port ${PORT}`);
+    console.log(`Serveur en cours d\'exécution sur le port ${PORT}`);
 });
